@@ -1,0 +1,38 @@
+body {
+  background-image: url("your-image.jpg"); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center; /* Center the heading */
+}
+
+.symbols-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+
+.symbol {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.symbol img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.symbol h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
